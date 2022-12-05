@@ -1,4 +1,13 @@
-.site-nav {
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.header__portfolio {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.button-nav__set {
     padding: 6px 25px 6px 25px;
     display: inline-block;
     font-family: inherit;
@@ -21,17 +30,14 @@
         }
 }
 
-.portfolio-nav .button-flex+.button-flex {
-    margin-left: 8px;
-}
-
-.portfolio-nav {
+.button-nav {
     padding-left: 0px;
     margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: var(--transition-cubic);
+    gap: 8px;
 }
 
 

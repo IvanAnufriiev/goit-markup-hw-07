@@ -6,10 +6,10 @@
 
 .client__list{
     display: flex;
+    justify-content: center;
     gap: 30px;
     padding-left: 0px;
     padding-bottom: 94px;
-    justify-content: center;
 }
 .client__link{
     display: flex;
