@@ -1,10 +1,5 @@
 .client__titel {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1666;
-    text-align: center;
-    color: var(--first-title-color);
-    text-align: center;
+    @extend %title-two;
     margin-bottom: 50px;
     padding-top: 94px;
 }
