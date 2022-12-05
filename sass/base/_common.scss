@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: roboto, sans-serif;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    background: var(--first-color)
+}

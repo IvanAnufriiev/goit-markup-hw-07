@@ -1,0 +1,51 @@
+.client__titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    color: var(--first-title-color);
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
+
+.client__list{
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
+    padding-bottom: 94px;
+    justify-content: center;
+}
+.client__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    li>&:hover,
+    li>&:focus {
+    border: 1px solid var(--logo-item-color);
+    transition: border var(--transition-cubic);
+        }
+}
+
+.client__icon{
+fill: #AFB1B8;
+transition: fill var(--transition-cubic) ;
+.client__item :hover & {
+fill: var(--logo-item-color);
+    }
+.client__item :focus & {
+fill: var(--logo-item-color);
+    }
+&:focus {
+fill: var(--logo-item-color);
+transition: fill var(--transition-cubic);
+        }
+}
+
+.client__item:hover{
+background-color: var(--first-color);
+    }
