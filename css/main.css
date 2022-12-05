@@ -11,6 +11,17 @@
   --transition-cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.title-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666;
+  text-align: center;
+  color: var(--first-title-color);
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
 h1, h2, h3, p, ul {
   margin: 0px;
 }
@@ -282,7 +293,6 @@ body {
   color: var(--first-title-color);
   text-align: center;
   margin-bottom: 50px;
-  padding-top: 94px;
 }
 
 .work__list {
